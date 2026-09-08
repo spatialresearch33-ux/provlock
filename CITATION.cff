@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "provlock: Checksum-locked, seed-locked, changelog-tracked provenance for spatial transcriptomics and omics pipelines"
+authors:
+  - family-names: "Venkatesh"
+    given-names: "S."
+version: 0.1.0
+date-released: 2026-09-08
+license: MIT
+repository-code: "https://github.com/spatialresearch33-ux/provlock"

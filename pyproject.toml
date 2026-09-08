@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "provlock"
+version = "0.1.0"
+description = "Checksum-locked, seed-locked, changelog-tracked provenance for spatial transcriptomics and omics pipelines"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "S. Venkatesh" }
+]
+keywords = [
+    "reproducibility", "provenance", "spatial transcriptomics",
+    "single-cell", "scanpy", "anndata", "omics"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+[project.optional-dependencies]
+spatial = ["anndata", "scipy"]
+dev = ["pytest", "anndata", "scipy"]
+
+[project.urls]
+Homepage = "https://github.com/spatialresearch33-ux/provlock"
+Repository = "https://github.com/spatialresearch33-ux/provlock"
+
+[tool.setuptools.packages.find]
+where = ["src"]
