@@ -1,5 +1,7 @@
 # provlock
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23037252.svg)](https://doi.org/10.5281/zenodo.23037252)
+
 **Checksum-locked, seed-locked, changelog-tracked provenance for spatial transcriptomics and omics pipelines.**
 
 `provlock` grew out of real reproducibility failures encountered during spatial
@@ -145,6 +147,24 @@ verified by the author before inclusion.
 pip install -e ".[dev]"
 pytest tests/
 ```
+
+## How to cite
+
+If you use `provlock` in your own work, please cite it as:
+
+> Venkatesh, S. (2026). provlock: Checksum-locked, seed-locked,
+> changelog-tracked provenance for spatial transcriptomics and omics
+> pipelines (v0.1.0) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.23037252
+
+A machine-readable citation is also available in [`CITATION.cff`](CITATION.cff).
+
+## Author
+
+S. Venkatesh, Integrative Cancer and Aging Research Laboratory (ICARL),
+Department of Physiology, Saveetha Medical College and Hospital, Saveetha
+Institute of Medical and Technical Sciences (SIMATS), Saveetha University,
+Thandalam - 602105, Chennai, Tamil Nadu, India.
 
 ## License
 

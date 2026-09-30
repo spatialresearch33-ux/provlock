@@ -4,7 +4,9 @@ title: "provlock: Checksum-locked, seed-locked, changelog-tracked provenance for
 authors:
   - family-names: "Venkatesh"
     given-names: "S."
+    affiliation: "Integrative Cancer and Aging Research Laboratory (ICARL), Department of Physiology, Saveetha Medical College and Hospital, Saveetha Institute of Medical and Technical Sciences (SIMATS), Saveetha University, Thandalam - 602105, Chennai, Tamil Nadu, India"
 version: 0.1.0
 date-released: 2026-09-08
+doi: 10.5281/zenodo.23037252
 license: MIT
 repository-code: "https://github.com/spatialresearch33-ux/provlock"
